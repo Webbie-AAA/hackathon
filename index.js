@@ -70,40 +70,50 @@ let choices = ["rock", "paper", "scissors"]
 //     return userInput
 // }
 
-let indexOfCompChoice = Math.floor(Math.random() * 3);
-let computer = choices[indexOfCompChoice]
 let gamePlay = true;
 
-// while (gamePlay){}
+while (gamePlay === true) {
+    let indexOfCompChoice = Math.floor(Math.random() * 3);
+    let computer = choices[indexOfCompChoice]
 
-let userChoice = prompt("Choose rock, paper, or scissors: ")
-console.log(`computer chose ${computer}`);
+    console.log('before run' + gamePlay)
 
+    let userChoice = prompt("Choose rock, paper, or scissors: ")
+    console.log(`computer chose ${computer}`);
 
-if (userChoice === "rock") {
-    if (computer === "scissors") {
-        console.log("you win!")
-    } else if (computer === "paper") {
-        console.log("you lose!")
-    } else {
-        console.log("draw")
+    let status = '';
 
+    if (userChoice === "rock") {
+        if (computer === "scissors") {
+            status = 'You Win!'
+        } else if (computer === "paper") {
+            status = 'You Lose!'
+        } else {
+            status = 'Draw'
+
+        }
+    } else if (userChoice === "paper") {
+        if (computer === "rock") {
+            status = 'You Win!'
+        } else if (computer === "scissors") {
+            status = 'You Lose!'
+  
+        } else {
+            status = 'Draw'
+        }
+    } else if (userChoice === "scissors") {
+        if (computer === "paper") {
+            status = 'You Win!'
+        } else if (computer === "rock") {
+            status = 'You Lose!'
+        } else {
+            status = 'Draw'
+        }
     }
-} else if (userChoice === "paper") {
-    if (computer === "rock") {
-        console.log("you win!")
-    } else if (computer === "scissors") {
-        console.log("you lose!")
-    } else {
-        console.log("draw")
-    }
-} else if (userChoice === "scissors") {
-    if (computer === "paper") {
-        console.log("you win!")
-    } else if (computer === "rock") {
-        console.log("you lose!")
-    } else {
-        console.log("draw")
-    }
-} 
 
+    if (status != 'Draw') {
+        gamePlay = false;
+    }
+
+    console.log(status)
+}
