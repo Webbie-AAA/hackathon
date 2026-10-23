@@ -1,3 +1,5 @@
+const prompt = require('prompt-sync')({ sigint: true });
+
 // player vs computer
 // player gets half of the deck of cards - 26 cards
 // computer gets the other half - 26 cards
@@ -48,9 +50,6 @@ const players = {
     
 //  }
 function playGame() {
-    // if (players.player.length === 0 || players.computer.length === 0) {
-    //     return
-    // }
 
     let i = 0
     
@@ -59,34 +58,30 @@ function playGame() {
         console.log('\nplayer ' + players.player[0])
         console.log('\ncomputer ' + players.computer[0])
         console.log('\n player array ' + players.player)
-        console.log('\n computer array ' + players.computer)
+        // console.log('\n computer array ' + players.computer)
+
+        let user_input = prompt('\nDo you want to draw a card? Type "y" for yes or "n" for no: ')
+
+        if (user_input === 'n') {
+            console.log('\n game over')
+            break
+        }
 
         const player_card = players.player.shift()
         const computer_card = players.computer.shift()
         
         if (player_card > computer_card) {
             players.player.push(player_card, computer_card)
-            console.log('\n player wins this round')
+            console.log('\n player has the higher number')
         } else if (computer_card > player_card) {
             players.computer.push(computer_card, player_card)
-            console.log('\n computer wins this round')
-        } else if (player_card === computer_card){
-            console.log("\n draw")
+            console.log('\n computer has the higher number')
+        } else if (player_card === computer_card) {
+            console.log("\n draw! time for war")
             const player_war_card = players.player.shift()
             const computer_war_card = players.computer.shift()
             
             if (player_war_card > computer_war_card) {
-                // const playerWar = players.player.length >= 4
-                // const computerWar = players.computer.length >= 4
-                
-                // Stuck because if one or the other is less than 4 - do this
-                // Whereas we want it to be, if Player wins,
-                // Then check if computer has less than 4 cards - push everything
-                // But we are initially check if both have less than 4 cards
-                // But we're doing that before we know who has won, as a general check
-                // How do we move from the general check, to code that works for when we know the
-                // specific winner or the specific loser
-                
                 const cardsToTake = players.computer.splice(0, 3)
                 players.player.push(player_card, computer_card, player_war_card, computer_war_card, ...cardsToTake)
             } else if (computer_war_card > player_war_card) {
@@ -98,12 +93,15 @@ function playGame() {
                 players.computer.push(computer_card, computer_war_card)
             }
         }
+        
+        console.log(`You have ${players.player.length} cards in your stack.`)
         console.log('\n player array ' + players.player + '\n length: ' + players.player.length)
-        console.log('\n computer array ' + players.computer + '\n length: ' + players.computer.length)
+        console.log('\n player array ' + players.player + '\n length: ' + players.player.length)
+        // console.log('\n computer array ' + players.computer + '\n length: ' + players.computer.length)
+        console.log(user_input)
         i++ 
-        console.log('\n\tNumber of Rounds: ' + i)
+        console.log('\n\t\tNumber of Rounds: ' + i)
     }
-    
 }
 
 playGame()
