@@ -14,7 +14,7 @@ console.log('\n');
 console.log(graphics.card_dict[user_choice_1].front);
 console.log(graphics.card_dict[user_choice_2].front);
 
-
+let user_matches_arr = [];
 const card_graphic = graphics.card_dict;
 if (card_graphic[user_choice_1].front != card_graphic[user_choice_2].front){
     console.log(`It's not a match!\n`)
@@ -28,10 +28,8 @@ if (card_graphic[user_choice_1].front != card_graphic[user_choice_2].front){
 
 } else if (card_graphic[user_choice_1].front == card_graphic[user_choice_2].front){
     console.log("It's a match!\n")
-    
-    console.log("The cards you picked where: \n")
-    console.log(card_graphic[user_choice_1].back);
-    console.log(graphics.card_dict[user_choice_1].front);
-    console.log(card_graphic[user_choice_2].back);
-    console.log(graphics.card_dict[user_choice_2].front);
+
+
+    user_matches_arr.push([user_choice_1, user_choice_2]);
+    console.log(`Your current matches: ${user_matches_arr}`)
 }
