@@ -7,7 +7,7 @@ const prompt = require('prompt-sync')({ sigint: true });
 
 let gamePlay = true
 let randomNumber = Math.floor(Math.random() * 100)
-console.log(randomNumber)
+// console.log(randomNumber)
 while (gamePlay === true) {
     let userInput = prompt("\nGuess a number between 1 and 100: ")
 
