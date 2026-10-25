@@ -49,13 +49,22 @@ Take the following steps to run the programme:
 - The folder version2_memory_card_game, includes a separate JS file for the ASCII graphics, and a plan.md to separate the planning process from the implementation.
 
 ### Folder Rankings by Game Implementation Difficulty
-<a id="easy-game"></a>
 
-__Easy Game__ : 
+<a id="easy_game"></a>
+__Easy Games__ : 
+1. Rock, Paper, Scissors
+2. Guess A Number
+
+__Medium Games__:
+1. War Of Cards
+
+__Hard Games__:
+1. Memory Card Game
+2. Memory Card Game - Version 2 (Different Implementation of the original)
 
 
 
-[Jump to difficulty rankings](#difficulty-rankings)
+
 
 
 
