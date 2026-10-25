@@ -50,6 +50,7 @@ Take the following steps to run the programme:
 
 ### Folder Rankings by Game Implementation Difficulty
 <a id="easy-game"></a>
+
 __Easy Game__ : 
 
 
