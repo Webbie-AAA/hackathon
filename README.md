@@ -21,6 +21,15 @@ Each game ranks at a different level of difficulty, ranging across easy, medium,
 
 ## Repository Layout
 
+- Each folder is a game
+
+- Most games are made up of a single index.js file
+
+- The folder version2_memory_card_game, includes a separate JS file for the ASCII graphics, and a plan.md to separate the planning process from the implementation.
+
+
+
+
 
 
 
