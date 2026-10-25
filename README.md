@@ -65,7 +65,14 @@ __Hard Games__:
 - Memory Card Game - Version 2 (Different Implementation of the original)
 
 
+## Status: Work in Progress
 
+Not everything is finished yet. Known gaps:
+
+- **Edge cases:** input validation is incomplete. Entering something other than a valid card number (e.g. letters, or a number outside 0-7) may cause errors.
+- **Testing:** the games have only been tested manually so far.
+- **Unfinished games:** Memory Card Game is under construction.
+- **Semi unfinished games:** Memory Card Game - Version 2 is developed and playable, but some of its features need to be adjusted. 
 
 
 
