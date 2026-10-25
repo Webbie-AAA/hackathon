@@ -26,7 +26,7 @@ if (card_graphic[user_choice_1].front != card_graphic[user_choice_2].front){
     console.log(graphics.card_dict[user_choice_1].front);
     console.log(card_graphic[user_choice_2].back);
     console.log(graphics.card_dict[user_choice_2].front);
-    console.log("\n Better luck next time!")
+    console.log("\n Better luck next time!\n\n")
 
 } else if (card_graphic[user_choice_1].front == card_graphic[user_choice_2].front){
     console.log("It's a match!\n")
@@ -36,7 +36,7 @@ if (card_graphic[user_choice_1].front != card_graphic[user_choice_2].front){
     console.log(`Your current matches: ${user_matches_arr}`)
 }
 
-console.log("Your contender is making their choices");
+console.log("Your contender is making their choices\n\n");
 setTimeout(() => {
     let comp_choice_1 = Math.floor(Math.random()*8)
     let comp_choice_2 = Math.floor(Math.random()*8)
@@ -57,32 +57,11 @@ setTimeout(() => {
 
 
     } else if (card_graphic[comp_choice_1].front == card_graphic[comp_choice_2].front){
-        console.log("\n\n Your contender had a match")
-        console.log(`Their current matches are: ${comp_matches_arr}`)
+        console.log("\n\n Your contender had a match!")
+        comp_matches_arr.push([comp_choice_1, comp_choice_2])
+        console.log(`\n\nTheir current matches are: ${comp_matches_arr}`)
     }
 
   
 }, 3000);
 
-// let comp_choice_1 = Math.floor(Math.random()*8)
-// let comp_choice_2 = Math.floor(Math.random()*8)
-
-
-// console.log(graphics.card_dict[comp_choice_1].front);
-// console.log(graphics.card_dict[comp_choice_2].front);
-
-// if (card_graphic[comp_choice_1].front != card_graphic[comp_choice_2].front){
-//     console.log("\n\nYour contender didn't get a match")
-
-//     console.log("\nThe cards they picked were: \n")
-//     console.log(card_graphic[comp_choice_1].back);
-//     console.log(graphics.card_dict[comp_choice_1].front);
-//     console.log(card_graphic[comp_choice_2].back);
-//     console.log(graphics.card_dict[comp_choice_2].front);
-//     console.log("\n Now is your chance! Go again!")
-
-
-// } else if (card_graphic[comp_choice_1].front == card_graphic[comp_choice_2].front){
-//     console.log("\n\n Your contender had a match")
-//     console.log(`Your current matches: ${comp_matches_arr}`)
-// }
