@@ -3,7 +3,7 @@
 ### Project: 
 Using JavaScript to create various popular games, playable through the CLI, using logical reasoning and fundamental programming skills.
 
-Each game ranks at a different level of difficulty, ranging across [easy](#easy_game), medium, and hard. 
+Each game ranks at a different level of difficulty, ranging across [easy](#easy_game), [medium](#medium_game), and [hard](#hard_game). 
 
 
 ### Collaborators:
@@ -48,19 +48,21 @@ Take the following steps to run the programme:
 
 - The folder version2_memory_card_game, includes a separate JS file for the ASCII graphics, and a plan.md to separate the planning process from the implementation.
 
-### Folder Rankings by Game Implementation Difficulty
+### Game Rankings by Implementation Difficulty
 
 <a id="easy_game"></a>
 __Easy Games__ : 
-1. Rock, Paper, Scissors
-2. Guess A Number
+- Rock, Paper, Scissors
+- Guess A Number
 
+<a id="medium_game"></a>
 __Medium Games__:
-1. War Of Cards
+- War Of Cards
 
+<a id="hard_game"></a>
 __Hard Games__:
-1. Memory Card Game
-2. Memory Card Game - Version 2 (Different Implementation of the original)
+- Memory Card Game
+- Memory Card Game - Version 2 (Different Implementation of the original)
 
 
 
