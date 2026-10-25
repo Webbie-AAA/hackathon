@@ -6,13 +6,13 @@
     Each game ranks at a different level of difficulty, ranging across easy, medium, and hard. 
 
 
-###Collaborators:
+### Collaborators:
 
 - __Wahida__ - [*wwwahida*](https://github.com/wwwahida)
 
 - __Umel__ - [*Webbie-AAA*](https://github.com/Webbie-AAA)
 
-###Tools:
+### Tools:
 - VS Code Live Share
 - Git/GitHub
 
