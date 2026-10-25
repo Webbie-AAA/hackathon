@@ -1,7 +1,7 @@
 #Hackathon 
 
 ###Project: 
-    Using JavaScript to create various popular games, playable through the CLI, using logical reasoning and programming fundamental skills.
+    Using JavaScript to create various popular games, playable through the CLI, using logical reasoning and fundamental programming skills.
     
     Each game ranks at a different level of difficulty, ranging across easy, medium, and hard. 
 
@@ -18,6 +18,8 @@
 
 ### Languages:
 - JavaScript
+
+## Repository Layout
 
 
 
