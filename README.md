@@ -19,15 +19,6 @@ Each game ranks at a different level of difficulty, ranging across easy, medium,
 ### Languages:
 - JavaScript
 
-## Repository Layout
-
-- Each folder is a game
-
-- Most games are made up of a single index.js file
-
-- The folder version2_memory_card_game, includes a separate JS file for the ASCII graphics, and a plan.md to separate the planning process from the implementation.
-
-
 ## Usage
 
 Take the following steps to run the programme:
@@ -46,6 +37,14 @@ Take the following steps to run the programme:
 - run `node index.js`.
 
 - run according to the name of the script in the folder, for example, in one instance the js script is called `game.js`
+
+## Repository Layout
+
+- Each folder is a game
+
+- Most games are made up of a single index.js file
+
+- The folder version2_memory_card_game, includes a separate JS file for the ASCII graphics, and a plan.md to separate the planning process from the implementation.
 
 
 
