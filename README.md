@@ -3,7 +3,7 @@
 ### Project: 
 Using JavaScript to create various popular games, playable through the CLI, using logical reasoning and fundamental programming skills.
 
-Each game ranks at a different level of difficulty, ranging across [easy](###Folders-According-To-Difficulty-Ranks), medium, and hard. 
+Each game ranks at a different level of difficulty, ranging across [easy](#Easy_Game), medium, and hard. 
 
 
 ### Collaborators:
@@ -48,7 +48,13 @@ Take the following steps to run the programme:
 
 - The folder version2_memory_card_game, includes a separate JS file for the ASCII graphics, and a plan.md to separate the planning process from the implementation.
 
-### Folders According To Difficulty Ranks
+### Folder Rankings by Game Implementation Difficulty
+
+__Easy Game__ : 
+
+
+
+[Jump to difficulty rankings](#difficulty-rankings)
 
 
 
