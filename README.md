@@ -3,7 +3,7 @@
 ### Project: 
 Using JavaScript to create various popular games, playable through the CLI, using logical reasoning and fundamental programming skills.
 
-Each game ranks at a different level of difficulty, ranging across easy, medium, and hard. 
+Each game ranks at a different level of difficulty, ranging across [easy](###Folders-According-To-Difficulty-Ranks), medium, and hard. 
 
 
 ### Collaborators:
@@ -18,6 +18,7 @@ Each game ranks at a different level of difficulty, ranging across easy, medium,
 
 ### Languages:
 - JavaScript
+
 
 ## Usage
 
@@ -38,6 +39,7 @@ Take the following steps to run the programme:
 
 - run according to the name of the script in the folder, for example, in one instance the js script is called `game.js`
 
+
 ## Repository Layout
 
 - Each folder is a game
@@ -45,6 +47,10 @@ Take the following steps to run the programme:
 - Most games are made up of a single index.js file
 
 - The folder version2_memory_card_game, includes a separate JS file for the ASCII graphics, and a plan.md to separate the planning process from the implementation.
+
+### Folders According To Difficulty Ranks
+
+
 
 
 
