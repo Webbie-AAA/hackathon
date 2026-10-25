@@ -1,16 +1,24 @@
 #Hackathon 
 
-__Project__: 
+###Project: 
     Using JavaScript to create various popular games, playable through the CLI, using logical reasoning and programming fundamental skills.
     
     Each game ranks at a different level of difficulty, ranging across easy, medium, and hard. 
 
 
-__Collaborators__ :
+###Collaborators:
 
-- Wahida - [*wwwahida*](https://github.com/wwwahida)
+- __Wahida__ - [*wwwahida*](https://github.com/wwwahida)
 
-- Umel - [*Webbie-AAA*](https://github.com/Webbie-AAA)
+- __Umel__ - [*Webbie-AAA*](https://github.com/Webbie-AAA)
+
+###Tools:
+- VS Code Live Share
+- Git/GitHub
+
+### Languages:
+- JavaScript
+
 
 
 
